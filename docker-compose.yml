@@ -1,0 +1,22 @@
+version: '3'
+services:
+  server:
+    image: tasbiha/coap
+    ports:
+      - "5683:5683"
+  subscriber:
+    image: tasbiha/mqtt
+    ports:
+      - "5000:5000"
+  mqtt_sensors:
+    image: tasbiha/mqtt_sensors
+    ports:
+      - "2020:2020"
+  root:
+    image: tasbiha/simulator
+    ports:
+      - "8000:8000"
+  prediction:
+    image: tasbiha/prediction
+    ports:
+      - "2000:2000"

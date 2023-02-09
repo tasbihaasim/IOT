@@ -1,0 +1,17 @@
+{
+        "locations": {
+        "indus": "indus-predictor-model.pkl",
+        "jehlum": "jehlum-predictor-model.pkl"
+        },
+    
+        "threshold" : {
+            "indus": 1468.1819109947644,
+            "jehlum": 1125.4064708236394
+        },
+    
+        "sms_sender" : "+19712989615",
+        "sms_receiver" : "+393293087726"
+}
+
+
+
